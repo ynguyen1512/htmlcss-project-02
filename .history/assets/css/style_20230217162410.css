@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* padding-top: 38px; */
+    padding: 12px 0;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 42px;
+}
+
+.navbar ul a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #5F5B53;
+}
+
+.navbar ul a:hover {
+    text-decoration: underline;
+    color: #171100;
+}
